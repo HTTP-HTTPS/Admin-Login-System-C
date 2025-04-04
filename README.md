@@ -55,34 +55,4 @@ Enter Password: 2025
 ✅ Welcome to Your Account, OTHMANE!
 ```
 
-## Contribution
-Feel free to fork this repository and submit pull requests if you want to contribute. Make sure to follow best practices for code contribution.
-
-## License
-This project is open-source and available under the MIT License.
-
-```
-
-### Instructions to Add to GitHub:
-1. **Create a New GitHub Repository:**
-   - Go to GitHub, click on the `+` sign in the top right, and select "New Repository."
-   - Name your repository `Admin-Login-System-C`.
-   - Initialize it with a `README.md` file, and then click "Create repository."
-
-2. **Clone the Repository to Your Local Machine:**
-   ```bash
-   git clone https://github.com/yourusername/Admin-Login-System-C.git
-   cd Admin-Login-System-C
-   ```
-
-3. **Add Your Files:**
-   - Save your `admin_login.c` file and the above `README.md` file in the repository folder.
-
-4. **Commit and Push:**
-   ```bash
-   git add .
-   git commit -m "Initial commit with source code and README"
-   git push origin main
-   ```
-
 
