@@ -24,16 +24,16 @@ int main() {
     
         // التحقق من صحة الإدخال
         if (strcmp(Admin_user_Name, Admin) == 0 && strcmp(Admin_Password, CorrectPassword) == 0) {
-            printf("\n✅ Welcome to Your Account, %s!\n", Admin_user_Name);
+            printf("\n Welcome to Your Account, %s!\n", Admin_user_Name);
             return 0; // الخروج بنجاح
         } else {
             attempt++; // زيادة عدد المحاولات
-            printf("\n❌ Incorrect Username or Password. Attempts left: %d\n", maxAttempts - attempt);
+            printf("\n Incorrect Username or Password. Attempts left: %d\n", maxAttempts - attempt);
         }
 
         // عند استنفاد المحاولات
         if (attempt == maxAttempts) {
-            printf("\n🚨 ERROR: Maximum attempts reached. Access denied.\n");
+            printf("\n ERROR: Maximum attempts reached. Access denied.\n");
             return 1; // الخروج بفشل
         }
     }
